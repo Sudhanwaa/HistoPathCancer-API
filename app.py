@@ -45,5 +45,10 @@ def predict():
         'class_prob': float(class_prob)
     })
 
+#Default End Point
+@app.route('/', methods=['GET','POST'])
+def Sample():
+    return "API IS RUNNIGN"
+
 if __name__ == '__main__':
     app.run(debug=True)
