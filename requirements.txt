@@ -5,3 +5,4 @@ pillow==9.4.0
 gunicorn==20.0.4
 keras==2.4.3
 protobuf==3.20.*
+cachelib==0.10.2
