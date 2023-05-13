@@ -1,0 +1,5 @@
+flask==2.1.2
+tensorflow==2.4.0
+numpy==1.19.5
+pillow==9.4.0
+pandas
